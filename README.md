@@ -24,7 +24,7 @@ ts = PropSCO2()
 ts.diagramm_temperature(pressure=(7.4e6, 10e6, 15e6, 20e6), temperature=(20, 200))
 ```
 
-### Compressibility
+### Compressibility factor
 
 ```
 from sCO2turboProp import PropSCO2
