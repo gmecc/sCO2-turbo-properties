@@ -6,6 +6,7 @@ The program is based on the liquid properties library `pyfluids`.
 - temperature - degree Celsius _(°C)_;
 - absolute pressure _(Pa)_
 
+Parameter values ​​are specified as a tuple.
 
 ### Dependence of specific heat on pressure
 
