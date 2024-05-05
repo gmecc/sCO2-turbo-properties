@@ -8,7 +8,7 @@ The program is based on the liquid properties library `pyfluids`.
 
 Parameter values ​​are specified as a tuple. For secondary parameters, the calculated range is determined in the tuple.
 
-### Dependence of specific heat on pressure
+## Dependence of specific heat on pressure
 
 ```
 from sCO2turboProp import PropSCO2
@@ -17,7 +17,7 @@ ts = PropSCO2()
 ts.diagramm_pressure(pressure=(1e6, 20e6), temperature=temperature)
 ```
 
-### Temperature dependence of specific heat
+## Temperature dependence of specific heat
 
 ```
 from sCO2turboProp import PropSCO2
@@ -25,7 +25,7 @@ ts = PropSCO2()
 ts.diagramm_temperature(pressure=(7.4e6, 10e6, 15e6, 20e6), temperature=(20, 200))
 ```
 
-### Compressibility factor
+## Compressibility factor
 
 ```
 from sCO2turboProp import PropSCO2
@@ -33,7 +33,7 @@ ts = PropSCO2()
 ts.compressibility(pressure=(5e6, 10e6), temperature=(32, 40, 60, 100, 300, 500))
 ```
 
-### Theoretical useful work in the Brayton cycle
+## Theoretical useful work in the Brayton cycle
 
 ```
 from sCO2turboProp import PropSCO2
@@ -41,6 +41,6 @@ ts = PropSCO2()
 ts.work(pressure=(5e6, 10e6), pressure_rate=2., temperature=(32, 600))
 ```
 
-### About the author
+## About the author
 Sergey Besedin,
 dr. of sc., prof.
