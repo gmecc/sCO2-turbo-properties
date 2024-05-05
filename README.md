@@ -28,7 +28,7 @@ ts = PropSCO2()
 ts.compressibility(pressure=(5e6, 10e6), temperature=(32, 40, 60, 100, 300, 500))
 ```
 
-### Theoretical useful work in the Brighton cycle
+### Theoretical useful work in the Brayton cycle
 
 ```
 from sCO2turboProp import PropSCO2
