@@ -7,7 +7,7 @@
 
 ```
 from sCO2turboProp import PropSCO2
-temperature = [32, 40, 50, 60, 600]
+temperature = (32, 40, 50, 60, 600)
 ts = PropSCO2()
 ts.diagramm_pressure(pressure=(1e6, 20e6), temperature=temperature)
 ```
@@ -17,7 +17,7 @@ ts.diagramm_pressure(pressure=(1e6, 20e6), temperature=temperature)
 ```
 from sCO2turboProp import PropSCO2
 ts = PropSCO2()
-ts.diagramm_temperature(pressure=[7.4e6, 10e6, 15e6, 20e6], temperature=(20, 200))
+ts.diagramm_temperature(pressure=(7.4e6, 10e6, 15e6, 20e6), temperature=(20, 200))
 ```
 
 ### Сжимаемость
