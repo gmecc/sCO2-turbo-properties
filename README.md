@@ -2,6 +2,10 @@
 
 The program is based on the liquid properties library `pyfluids`.
 
+### Units
+- temperature - degree Celsius _(°C)_;
+- absolute pressure _(Pa)_
+
 
 ### Dependence of specific heat on pressure
 
