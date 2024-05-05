@@ -35,3 +35,6 @@ from sCO2turboProp import PropSCO2
 ts = PropSCO2()
 ts.work(pressure=(5e6, 10e6), pressure_rate=2., temperature=(32, 600))
 ```
+
+### Об авторе
+Библиотека разработатна 
