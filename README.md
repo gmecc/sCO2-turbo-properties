@@ -1,4 +1,4 @@
-# Property calculation program sCO2
+# Properties calculation program sCO2
 
 The program is based on the liquid properties library `pyfluids`.
 
