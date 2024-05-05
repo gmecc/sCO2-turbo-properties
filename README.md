@@ -37,5 +37,5 @@ ts.work(pressure=(5e6, 10e6), pressure_rate=2., temperature=(32, 600))
 ```
 
 ### About the author
-Sergey Besedin
+Sergey Besedin,
 dr. of sc., prof.
