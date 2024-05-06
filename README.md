@@ -1,4 +1,4 @@
-# Properties calculation program sCO2
+# Calculation of sCO2 properties for the Brayton cycle
 
 The program is based on the liquid properties library `pyfluids`.
 
